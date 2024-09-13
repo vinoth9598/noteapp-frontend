@@ -1,6 +1,6 @@
 import { useState,useEffect } from "react";
 import axios from "axios";
-import "./style/loginForm.css";
+import "./style/loginform";
 
 const LoggedInPage =({user,setUser, token,setToken,isRegistered,setIsRegistered})=>{
 
