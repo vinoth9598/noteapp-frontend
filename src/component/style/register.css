@@ -1,0 +1,55 @@
+.register{
+    padding:0px;
+    display: inline-block;
+
+}
+h3{
+    padding: 2px;
+    background-color:white;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:red;
+    
+    
+}
+.inp{
+    padding:10px;
+}
+
+.inp>input{
+    padding: 8px;
+    width: 250px;
+    height: 40px;
+    text-align: left;
+    font-size: 16px;
+    color:black;
+    border:1px solid whitesmoke;
+    border-radius: 5px;
+
+}
+
+p{
+    font-size: 20px;
+    width:90%;
+    margin-left: 30px;
+   
+}
+.listItem{
+    overflow-y: scroll;
+}
+button{
+    background-color: white;
+    border:1px solid whitesmoke;
+    padding:5px;
+    width:100px;
+    color:black;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 1px 1px 0px;
+    cursor: pointer;
+}
+
+button:hover{
+    color:blue;
+    box-shadow: none;
+}
